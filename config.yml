@@ -62,6 +62,12 @@ menu:
       title: 关于
       url: /about/
       weight: 5
+    
+    - identifier : gallery
+      name: gallery
+      title: 画廊
+      url: /gallery/
+      weight: 6
 
 
 params:
@@ -84,15 +90,14 @@ params:
   # put custom.css in $hugo_root_dir/static/
   # customCSS: css/custom.css
 
+  # pick from http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
   menuIcons:
     enable: true  # 是否启用导航菜单图标
     home: icon-home-fill
     archives: icon-archives-fill
     categories: icon-folder
     tags: icon-tags
-    repository: icon-project
-    books: icon-book-fill
-    links: icon-friendship
+    gallery: icon-huaban
     about: icon-book-fill
 
   # profile
@@ -103,7 +108,7 @@ params:
     author: jasm
     author_title: 人事终变，天道能还
     author_description:
-    location: nowhere
+    location: Shanghai
     follow: https://github.com/jasm718
     # Social Links
     social:
@@ -123,7 +128,7 @@ params:
       url: favicon.ico
     title: Hugo # 页面title
     favicon: favicon.ico
-    board: <p>公告内容</p> # 公告牌
+    board: <p>👋👋👋</p><p>这是jasm的blog,暂时还没有多少内容</p><p>后面会努力更新💪💪💪，阿里嘎多</p><p>CV请戳👉关于</p>
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
