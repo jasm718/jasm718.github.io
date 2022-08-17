@@ -6484,7 +6484,7 @@ body.no-sidebar .sidebar {
 } */
 
 .article-footer {
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
 /**
@@ -9420,5 +9420,5 @@ screen and (max-height: 479px) {
 }
 
 .article-entry {
-  margin-bottom: 20%;
+  margin-bottom: 10px;
 }
