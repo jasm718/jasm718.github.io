@@ -1,6 +1,6 @@
 +++
 author = "jasm"
-title = "[hugo blog.1]介绍hugo与简单使用"
+title = "[hugo blog.1]使用hugo创建静态站点"
 date = "2019-03-09"
 description = "使用hugo,github page,github actions搭建一个静态博客"
 tags = [
@@ -165,3 +165,12 @@ C:\Hugo\Sites\example> hugo new posts/test.md
 回到浏览器看一下，内容就刷新出来了，再下载一个markdown编辑器，你就可以开始编辑文章内容了。
 
 ![有内容的站点](/images/with_content.png)
+
+# 总结
+使用hugo，可以快速搭建起一个静态博客，再搭配上各种主题就可以呈现出个性化的界面。
+
+<font color=Red>不过，现在我们的博客内容只能放在本地，供我们自己欣赏</font>。如何让所有人都能通过互联网访问到呢？
+
+大家自然想到可以使用一个有公网ip的服务器来存放我们的静态博客内容，然后使用nginx托管这些静态内容。
+
+实际上，github pages（gitee也有类似服务）提供了一个很完美的静态站点自动部署托管平台，只要你了解并可以简单使用git和github，github pages就可以帮助你自动部署静态页面，并提供一个github的子域名（用户名.github.io）供大家访问你的博客。
