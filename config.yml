@@ -71,7 +71,7 @@ menu:
 
 
 params:
-  since: 2017
+  since: 2019
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   copyright_link: http://creativecommons.org/licenses/by/4.0/deed.zh
@@ -173,7 +173,7 @@ params:
   # PV
   pv:
     busuanzi:
-      enable: false # 不蒜子统计
+      enable: true # 不蒜子统计
     leancloud:
       enable: false # leancloud统计
       app_id: # leancloud <AppID>

@@ -1,6 +1,6 @@
 +++
 author = "jasm"
-title = "[hugo blog.2]使用github pages展示你的博客"
+title = "<hugo blog.2>使用github pages展示你的博客"
 date = "2019-03-15"
 description = "使用hugo,github page,github actions搭建一个静态博客"
 tags = [
